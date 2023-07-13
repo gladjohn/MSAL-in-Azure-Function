@@ -17,6 +17,6 @@ jobs:
         - name: Azure Pipelines Action
           uses: Azure/pipelines@v1
           with:
-            azure-devops-project-url: https://identitydivision.visualstudio.com/IDDP/OneBranch
+            azure-devops-project-url: https://identitydivision.visualstudio.com/IDDP/
             azure-pipeline-name: 'MSAL.NET-OneBranch/MSAL.NET-OneBranch-CI-Official'
             azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
