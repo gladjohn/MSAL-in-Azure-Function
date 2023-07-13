@@ -1,2 +1,1 @@
 # MSAL-in-Azure-Function
-# 
