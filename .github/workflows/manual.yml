@@ -2,12 +2,12 @@ name: CI
 
 # Run this workflow every time a commit gets pushed to main
 on:
-  push:
-    branches:
-      - master
-  #pull_request:
-  #  branches: 
+  #push:
+  #  branches:
   #    - main
+  pull_request:
+    branches: 
+      - main
 
 jobs:
     build:
